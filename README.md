@@ -142,9 +142,54 @@ Node ID Type Voltage Current Temp Load Status
 
 N01 Solar 230V 12A 35C 50% OK
 N02 Battery 48V 8A 30C 70% OK
-N03 EV-Charger 400V 32A 40C 60% CHARGING
+N03 EV-Charger 400V 32A 40C 60% CHARGING 
+Layer / Module	Language / Framework	Key Libraries / Tools
+Embedded Controllers	C++ / ARM Cortex	gcc/g++, cmake, pthread
+Distributed Coordination	Rust	tokio, serde, Raft protocol
+AI / ML Layer	Python	numpy, pandas, scikit-learn, TensorFlow Lite
+EV Management	Python / Rust	threading, asyncio, secure ledger framework
+Console Interface	Python / C++ / Rust	rich (Python), ncurses (C++), crossterm (Rust)
+Blockchain Trading	Rust / Python	Substrate, smart contract framework
+Data Storage	InfluxDB / SQLite	InfluxDB client libraries, SQLAlchemy
+Edge IoT	ARM Cortex / Sensors	Embedded firmware libraries, ADC/DAC drivers
 N04 Wind 220V 15A 37C 40% OK
 
 EV Fleet: 8/12 Active | V2G Participation: 3 Vehicles
 Forecast Next 1h Load: 80 kWh | Renewable: 70 kWh
 Alerts: Battery N02 Voltage Drop | Load Spike in 5min
+          ┌───────────────────────────┐
+          │   AutoGrid Console UI     │
+          │  (Cyber/Engineering CLI) │
+          └─────────────┬────────────┘
+                        │
+                        ▼
+          ┌───────────────────────────┐
+          │ Distributed Coordinator   │
+          │          (Rust)           │
+          │  - Raft Consensus         │
+          │  - Secure P2P Comm        │
+          │  - Load Balancing         │
+          └───────┬─────────┬────────┘
+                  │         │
+      ┌───────────┘         └─────────────┐
+      ▼                                 ▼
+┌──────────────┐                  ┌───────────────┐
+│ Embedded     │                  │ Python AI      │
+│ Controllers  │                  │ Engine         │
+│ (C++ / ARM)  │                  │ - Forecasting  │
+│ - Sensors    │                  │ - Anomaly Det. │
+│ - Relays     │                  │ - Smart EV     │
+│ - PWM Control│                  │   Scheduling   │
+└──────────────┘                  └───────────────┘
+      │                                 │
+      └───────────────┬─────────────────┘
+                      ▼
+              ┌───────────────┐
+              │ EV Management │
+              │ System (V2G) │
+              │ - Fleet Mgmt  │
+              │ - P2P Trading │
+              │ - Charging    │
+              └───────────────┘
+
+                      
