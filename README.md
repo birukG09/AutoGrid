@@ -193,3 +193,6 @@ Alerts: Battery N02 Voltage Drop | Load Spike in 5min
               └───────────────┘
 
                       
+📬 Contact & GitHub Info
+
+**GitHub Profile:** [birukG09](https://github.com/birukG09)  
