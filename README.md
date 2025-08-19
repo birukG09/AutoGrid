@@ -2,7 +2,7 @@
 ![img alt](https://github.com/birukG09/AutoGrid/blob/20a3a527edfc7b32415d96db7f9b7258da8b2cf8/screen%20shot1258.png)
 
 AutoGrid is a **cutting-edge, distributed energy management system** that integrates renewable energy sources, battery storage, and EV charging into a **real-time, multi-language, intelligent microgrid controller**. Designed for advanced energy optimization, predictive AI scheduling, and autonomous control, AutoGrid leverages embedded C++, Rust for distributed coordination, Python for AI-driven forecasting, and ARM-based edge hardware for real-world deployment.  
-
+![img alt](https://github.com/birukG09/AutoGrid/blob/dc106cf8fbe20fe79fa3cf526b0091571b0d9285/img45565.png)
 ---
 
 ## ✅ Key Highlights
