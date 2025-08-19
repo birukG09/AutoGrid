@@ -57,6 +57,7 @@ AutoGrid is a **cutting-edge, distributed energy management system** that integr
 - **Deep Learning Forecasting**: Neural networks and ensemble models for predictive demand & generation  
 - **IoT Integration**: Real sensor data collection (voltage, current, temperature)  
 - **Performance Optimization**: Adaptive tuning and resource allocation  
+![image alt]()
 
 ---
 
