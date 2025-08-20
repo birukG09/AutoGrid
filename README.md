@@ -13,7 +13,7 @@ AutoGrid is a **cutting-edge, distributed energy management system** that integr
 - Multi-source generation tracking (Solar: 0.0 kW, Wind: 13.6 kW)  
 - Battery management (69.2% SOC) with intelligent scheduling  
 - Grid stability monitoring (e.g., 28.6 kW energy deficit)  
-![image alt](https://github.com/birukG09/AutoGrid/blob/9f7f54b4e855b7408ef2a2b6e6aea0329a54b1dc/img4569.png)
+
 ### 🚗 Advanced EV Integration
 - Fleet management showing 8 connected vehicles out of 12 total  
 - Bi-directional **Vehicle-to-Grid (V2G)** operations with 3 vehicles actively participating  
