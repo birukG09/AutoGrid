@@ -1,7 +1,9 @@
 # AutoGrid – Distributed Energy Controller for Microgrids ⚡🌍
-![image alt](https://github.com/birukG09/AutoGrid/blob/9f7f54b4e855b7408ef2a2b6e6aea0329a54b1dc/img4569.png)
-AutoGrid is a **cutting-edge, distributed energy management system** that integrates renewable energy sources, battery storage, and EV charging into a **real-time, multi-language, intelligent microgrid controller**. Designed for advanced energy optimization, predictive AI scheduling, and autonomous control, AutoGrid leverages embedded C++, Rust for distributed coordination, Python for AI-driven forecasting, and ARM-based edge hardware for real-world deployment.  
 ![img alt](https://github.com/birukG09/AutoGrid/blob/dc106cf8fbe20fe79fa3cf526b0091571b0d9285/img45565.png)
+---
+
+AutoGrid is a **cutting-edge, distributed energy management system** that integrates renewable energy sources, battery storage, and EV charging into a **real-time, multi-language, intelligent microgrid controller**. Designed for advanced energy optimization, predictive AI scheduling, and autonomous control, AutoGrid leverages embedded C++, Rust for distributed coordination, Python for AI-driven forecasting, and ARM-based edge hardware for real-world deployment.  
+
 ---
 
 ## ✅ Key Highlights
@@ -11,7 +13,7 @@ AutoGrid is a **cutting-edge, distributed energy management system** that integr
 - Multi-source generation tracking (Solar: 0.0 kW, Wind: 13.6 kW)  
 - Battery management (69.2% SOC) with intelligent scheduling  
 - Grid stability monitoring (e.g., 28.6 kW energy deficit)  
-
+![image alt](https://github.com/birukG09/AutoGrid/blob/9f7f54b4e855b7408ef2a2b6e6aea0329a54b1dc/img4569.png)
 ### 🚗 Advanced EV Integration
 - Fleet management showing 8 connected vehicles out of 12 total  
 - Bi-directional **Vehicle-to-Grid (V2G)** operations with 3 vehicles actively participating  
@@ -20,7 +22,7 @@ AutoGrid is a **cutting-edge, distributed energy management system** that integr
 - Priority allocation for emergency or critical vehicles  
 - Peer-to-peer energy trading between EVs using secure distributed ledgers  
 - Autonomous EV support as mobile energy units  
-
+  
 ### 🎛️ Enhanced Console Interface
 - Professional engineering/cyber-themed console (green, white, red ANSI colors)  
 - Multi-menu system: Grid operations, EV management, energy trading, diagnostics  
